@@ -101,8 +101,17 @@ blockquote {
 }
 
 footer {
-  padding: 25px;
+  padding: 5px;
   text-align: center;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin-inline: auto;
+  width: fit-content;
+  max-width: calc(
+    100vw - 8px * 2
+  );
 }
 
 .helptext {

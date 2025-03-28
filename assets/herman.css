@@ -45,8 +45,16 @@ main {
 }
 
 footer {
-  text-align: center;
-  padding-top: var(--spacing);
+  padding: 5px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-inline: auto;
+  width: fit-content;
+  max-width: calc(
+    100vw - 8px * 2
+  );
 }
 
 a {
